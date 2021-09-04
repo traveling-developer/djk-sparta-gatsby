@@ -1,0 +1,233 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #00bcd4;
+    min-height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.makeStyles-link-8:hover {
+    border-bottom: 4px solid #00bcd4;
+}
+
+.makeStyles-link-8 {
+    display: inline-block;
+    height: 2;
+    line-height: 1.6;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.sparta-home-header-base {
+    position: relative;
+    background-size: cover !important;
+    z-index: 5;
+}
+
+@media screen and (max-width: 480px) {
+    .sparta-home-header {
+        background: url('/images/rackets_small.webp') center top no-repeat;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .sparta-home-header {
+        background: url('/images/rackets.webp') center top no-repeat;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+    .sparta-home-header {
+        background: url('/images/rackets_large.webp') center top no-repeat;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .sparta-home-header {
+        background: url('/images/rackets_large.webp') center top no-repeat;
+        height: 400px;
+    }
+}
+
+.sparta-home-section {
+    margin: 30px;
+}
+
+.video {
+    background-color: black !important;
+    height: 100%;
+}
+
+.overview-card {
+    height: 100%;
+}
+
+.overview-card-title {
+    font-family: 'Indie Flower';
+    font-size: 1.8rem;
+}
+
+.overview-card-content {
+    padding-top: 0px !important;
+    line-height: 1.5rem;
+}
+
+/* -------- */
+
+.sparta-club-header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/club.jpg') bottom center no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-family: 'Indie Flower';
+    color: #FFF;
+    font-size: 1.8em;
+}
+
+.club-card {
+    padding: 24px;
+}
+
+.red-timeline-dot {
+    color: #d50000 !important;
+    background-color: #d50000 !important;
+}
+
+/* News */
+
+.newsImage {
+    height: 100px;
+}
+
+.newsContainer {
+    margin: 30px;
+    white-space: pre-line;
+}
+
+/* Teams */
+
+.teamHeader {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/mountain.jpg') bottom center no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-family: 'Indie Flower';
+    color: #FFF;
+    font-size: 1.8em;
+}
+
+@media screen and (max-width: 335px) {
+    .teamHeader {
+        font-size: 1.7em;
+    }
+}
+
+/* Team - Player */
+
+.playerButton {
+    background-color: #d50000 !important;
+    color: white !important;
+}
+
+.playerCard {
+    margin: 30px !important;
+}
+
+.sparta-player-title {
+    font-size: 1.5em;
+}
+
+.sparta-player-title h2 {
+    margin: 0 !important;
+    font-family: 'Indie Flower';
+}
+
+.sparta-player-title img {
+    border-radius: 50%;
+    width: 120px;
+    vertical-align: middle;
+}
+
+/* Single Player */
+
+.singlePlayerCard {
+    margin: 30px !important;
+}
+
+.playerImage {
+    max-width: 300px;
+}
+
+.playerImageContainer {
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.playerContent h2 {
+    font-family: 'Indie Flower';
+    font-size: 1.8em;
+}
+
+.playerContent {
+    line-height: 150%;
+}
+
+.playerContent ul {
+    margin: 0px;
+}

@@ -33,6 +33,7 @@ module.exports = {
       },
       __key: "images",
     },
-    `gatsby-theme-material-ui`
+    `gatsby-theme-material-ui`,
+    `gatsby-plugin-styled-components`
   ],
 };

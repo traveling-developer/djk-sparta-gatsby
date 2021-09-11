@@ -20,15 +20,20 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@material-ui/styles": "^4.11.4",
+    "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.13.0",
+    "gatsby-background-image": "^1.5.3",
     "gatsby-plugin-google-analytics": "^3.13.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-plugin-styled-components": "^4.13.0",
     "gatsby-source-contentful": "^5.13.0",
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-theme-material-ui": "^2.0.1",
     "gatsby-transformer-sharp": "^3.13.0",
+    "gbimage-bridge": "^0.1.4",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1"
   }
 }

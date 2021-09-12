@@ -1,0 +1,48 @@
+.header {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    font-family: 'Indie Flower';
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.playerButton {
+    background-color: #d50000 !important;
+    color: white !important;
+}
+
+.playerCard {
+    margin: 30px !important;
+}
+
+.sparta-player-title {
+    font-size: 1.5em;
+}
+
+.sparta-player-title h2 {
+    margin: 0 !important;
+    font-family: 'Indie Flower';
+}
+
+.sparta-player-title img {
+    border-radius: 50%;
+    vertical-align: middle;
+}

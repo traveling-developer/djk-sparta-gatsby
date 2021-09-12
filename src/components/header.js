@@ -101,7 +101,7 @@ const Header = () => {
                     </ListItem>
                     {data.allContentfulTeam.nodes.map((element, index) =>
                         <ListItem button key={index} >
-                            <Link to={"/team/" + element.name}>
+                            <Link to={"/teams/" + element.name.replace(". ", "-").toLowerCase()}>
                                 <a className={drawerLink}>{element.name}</a>
                             </Link>
                         </ListItem>

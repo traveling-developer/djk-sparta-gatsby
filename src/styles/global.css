@@ -123,17 +123,6 @@ a {
     background-color: #d50000 !important;
 }
 
-/* News */
-
-.newsImage {
-    height: 100px;
-}
-
-.newsContainer {
-    margin: 30px;
-    white-space: pre-line;
-}
-
 /* Single Player */
 
 .singlePlayerCard {

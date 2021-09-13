@@ -29,7 +29,7 @@ export default function Team(props) {
                         </Grid>
                     </CardContent>
                     <CardActions>
-                        <Link to={"/player/" + element.rank}>
+                        <Link to={"/players/" + element.rank.toString().replace('.', '-')}>
                             <Button className="playerButton" size="small">Mehr über {element.firstName}</Button>
                         </Link>
                     </CardActions>

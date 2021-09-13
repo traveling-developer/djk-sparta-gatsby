@@ -1,0 +1,13 @@
+.button {
+    background-color: #d50000 !important;
+    color: white !important;
+}
+
+.media {
+    height: 205px;
+    overflow: hidden;
+}
+
+.teamsSection {
+    margin: 30px;
+}

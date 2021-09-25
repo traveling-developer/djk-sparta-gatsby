@@ -10,6 +10,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "build-production": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },

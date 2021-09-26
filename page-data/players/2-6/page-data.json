@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-players-contentful-player-rank-js",
+    "path": "/players/2-6/",
+    "result": {"data":{"allContentfulPlayer":{"nodes":[{"captian":true,"firstName":"Jürgen","lastName":"Fietz","qttr":1818,"rank":2.6,"yearOfBirth":null,"origion":null,"racket":null,"forehandRubber":null,"backhandRubber":null,"style":null,"previousClubs":"Keine Angabe","spartiatSince":null,"imageBig":null}]}},"pageContext":{"id":"8d6dfe9f-421f-5cf9-b5e5-a59810dc8b9c","rank":2.6,"__params":{"rank":"2-6"}}},
+    "staticQueryHashes": ["1867213108"]}

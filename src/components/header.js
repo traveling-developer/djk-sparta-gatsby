@@ -76,7 +76,7 @@ const Header = () => {
             </AppBar>
             <Drawer open={state.drawer} onClose={toggleDrawer(false)}>
                 <div className={drawerTitle}>
-                    <StaticImage src="../images/sparta.gif" alt="Sparta Logo" placeholder="blurred"
+                    <StaticImage src="../images/sparta.png" alt="Sparta Logo" placeholder="blurred"
                         width={100}
                         height={100} />
                 </div>

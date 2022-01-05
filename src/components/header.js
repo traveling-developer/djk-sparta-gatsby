@@ -1,5 +1,5 @@
 import { Menu } from '@mui/icons-material';
-import { AppBar, Divider, Drawer, Hidden, IconButton, List, ListItem, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Divider, Drawer, IconButton, List, ListItem, Toolbar, Typography } from '@mui/material';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
@@ -45,7 +45,7 @@ const Header = () => {
                     <Typography variant="h6" className={title}>
                         DJK Sparta Noris Nürnberg
                     </Typography>
-                    <Hidden mdDown>
+                    <Box sx={{ display: { xs: 'none', md: 'block' } }}>
                         <Link to="/">
                             <a className={link}>Home</a>
                         </Link>
@@ -61,10 +61,12 @@ const Header = () => {
                         <Link to="/club">
                             <a className={link}>Verein</a>
                         </Link>
-                        <Link to="/contact">
-                            <a className={link}>Kontakt / Anfahrt</a>
-                        </Link>
-                    </Hidden>
+                        <Box sx={{ display: { xs: 'none', lg: 'inline' } }}>
+                            <Link to="/contact">
+                                <a className={link}>Kontakt / Anfahrt</a>
+                            </Link>
+                        </Box>
+                    </Box>
                 </Toolbar>
             </AppBar>
             <Drawer open={state.drawer} onClose={toggleDrawer(false)}>
@@ -120,6 +122,11 @@ const Header = () => {
                     <ListItem button>
                         <Link to="/siteNotice">
                             <a className={drawerLink}>Impressum</a>
+                        </Link>
+                    </ListItem>
+                    <ListItem button>
+                        <Link to="/privacy">
+                            <a className={drawerLink}>Datenschutz</a>
                         </Link>
                     </ListItem>
                 </List>

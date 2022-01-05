@@ -1,4 +1,4 @@
-import { AppBar, Hidden, Toolbar, Typography } from '@mui/material';
+import { AppBar, Box, Toolbar, Typography } from '@mui/material';
 import { Link } from 'gatsby';
 import * as React from 'react';
 import * as styles from "./footer.module.css";
@@ -9,14 +9,14 @@ const Footer = () => {
             <Typography variant="body1" className={styles.logo}>
                 © DJK Sparta Noris Nürnberg e.V.
             </Typography>
-            <Hidden xsDown>
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                 <Link to="/siteNotice">
                     <a className={styles.link}>Impressum</a>
                 </Link>
                 <Link to="/privacy">
                     <a className={styles.link}>Datenschutzerklärung</a>
                 </Link>
-            </Hidden>
+            </Box>
         </Toolbar>
     </AppBar>
 }

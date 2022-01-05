@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardMedia, Container } from '@material-ui/core';
+import { Card, CardContent, CardHeader, CardMedia, Container } from '@mui/material';
 import { graphql } from "gatsby";
 import BackgroundImage from 'gatsby-background-image';
 import React from "react";

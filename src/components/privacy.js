@@ -1,7 +1,5 @@
 
-import { Container } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
+import { Card, CardContent, Container } from '@mui/material';
 import { graphql, useStaticQuery } from 'gatsby';
 import * as React from 'react';
 import HeaderImage from './headerImage';

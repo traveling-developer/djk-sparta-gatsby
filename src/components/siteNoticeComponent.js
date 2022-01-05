@@ -1,10 +1,6 @@
 
-import { Container } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardHeader from '@material-ui/core/CardHeader';
-import Grid from '@material-ui/core/Grid';
-import EmailIcon from '@material-ui/icons/Email';
+import { Email } from '@mui/icons-material';
+import { Card, CardContent, CardHeader, Container, Grid } from '@mui/material';
 import { graphql, useStaticQuery } from 'gatsby';
 import * as React from 'react';
 import HeaderImage from './headerImage';
@@ -59,7 +55,7 @@ const SiteNoticeComponent = () => {
                     Jürgen Fietz<br />
                     <Grid container>
                         <Grid item>
-                            <EmailIcon />
+                            <Email />
                         </Grid>
                         <Grid item>
                             <a href="mailto:juergen_fietz@web.de">juergen_fietz(at)web.de</a>

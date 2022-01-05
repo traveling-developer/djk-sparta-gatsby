@@ -1,4 +1,4 @@
-import { Card, CardContent, Container, Grid, Hidden } from '@material-ui/core';
+import { Card, CardContent, Container, Grid, Hidden } from '@mui/material';
 import { graphql } from "gatsby";
 import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import React from "react";

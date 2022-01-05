@@ -1,4 +1,4 @@
-import { Hidden } from '@material-ui/core';
+import { Hidden } from '@mui/material';
 import BackgroundImage from 'gatsby-background-image';
 import React from 'react';
 import {

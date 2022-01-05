@@ -1,7 +1,4 @@
-import AppBar from '@material-ui/core/AppBar';
-import Hidden from '@material-ui/core/Hidden';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import { AppBar, Hidden, Toolbar, Typography } from '@mui/material';
 import { Link } from 'gatsby';
 import * as React from 'react';
 import * as styles from "./footer.module.css";

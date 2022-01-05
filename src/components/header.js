@@ -1,13 +1,5 @@
-import AppBar from '@material-ui/core/AppBar';
-import Divider from '@material-ui/core/Divider';
-import Drawer from '@material-ui/core/Drawer';
-import Hidden from '@material-ui/core/Hidden';
-import IconButton from '@material-ui/core/IconButton';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import MenuIcon from '@material-ui/icons/Menu';
+import { Menu } from '@mui/icons-material';
+import { AppBar, Divider, Drawer, Hidden, IconButton, List, ListItem, Toolbar, Typography } from '@mui/material';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
@@ -15,6 +7,7 @@ import {
     drawerLink, drawerTitle, link, root,
     title
 } from './header.module.css';
+
 
 const Header = () => {
     const data = useStaticQuery(graphql`
@@ -47,7 +40,7 @@ const Header = () => {
             <AppBar position="static">
                 <Toolbar>
                     <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
-                        <MenuIcon />
+                        <Menu />
                     </IconButton>
                     <Typography variant="h6" className={title}>
                         DJK Sparta Noris Nürnberg

@@ -1,9 +1,6 @@
 import { Loader } from '@googlemaps/js-api-loader';
-import { Card, CardHeader, Grid } from '@material-ui/core';
-import CardContent from '@material-ui/core/CardContent';
-import EmailIcon from '@material-ui/icons/Email';
-import PhoneIcon from '@material-ui/icons/Phone';
-import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
+import { Email, Phone, PhoneIphone } from '@mui/icons-material';
+import { Card, CardContent, CardHeader, Grid } from '@mui/material';
 import { graphql, useStaticQuery } from 'gatsby';
 import * as React from 'react';
 import { useEffect, useRef } from 'react';
@@ -81,7 +78,7 @@ const ContactComponent = () => {
                                 {element.phone != null &&
                                     <Grid container>
                                         <Grid item>
-                                            <PhoneIcon />
+                                            <Phone />
                                         </Grid>
                                         <Grid item>
                                             {element.phone}
@@ -91,7 +88,7 @@ const ContactComponent = () => {
                                 {element.mobile != null &&
                                     <Grid container>
                                         <Grid item>
-                                            <PhoneIphoneIcon />
+                                            <PhoneIphone />
                                         </Grid>
                                         <Grid item>
                                             {element.mobile}
@@ -101,7 +98,7 @@ const ContactComponent = () => {
                                 {element.mail1 != null &&
                                     <Grid container>
                                         <Grid item>
-                                            <EmailIcon />
+                                            <Email />
                                         </Grid>
                                         <Grid item>
                                             <a href={'mailto:' + element.mail1}>{element.mail1.replace('@', '(at)')}</a>
@@ -111,7 +108,7 @@ const ContactComponent = () => {
                                 {element.mail2 != null &&
                                     <Grid container>
                                         <Grid item>
-                                            <EmailIcon />
+                                            <Email />
                                         </Grid>
                                         <Grid item>
                                             <a href={'mailto:' + element.mail2}>{element.mail2.replace('@', '(at)')}</a>

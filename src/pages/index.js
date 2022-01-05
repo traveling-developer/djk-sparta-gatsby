@@ -1,17 +1,17 @@
-import "@fontsource/indie-flower"
-import { Card, CardContent, CardHeader, Grid } from '@material-ui/core'
-import { graphql } from "gatsby"
-import * as React from 'react'
-import ContactComponent from "../components/contact"
-import EventsComponent from "../components/events"
-import IndexHeader from "../components/indexHeader"
-import Layout from '../components/layout'
-import NewsComponent from "../components/news"
-import SponsorsComponent from "../components/sponsors"
-import TeamsComponent from "../components/teams"
-import "../styles/global.css"
-import FilmMp4 from "../videos/tt-film.mp4"
-import FilmWebm from "../videos/tt-film.webm"
+import "@fontsource/indie-flower";
+import { Card, CardContent, CardHeader, Grid } from '@mui/material';
+import { graphql } from "gatsby";
+import * as React from 'react';
+import ContactComponent from "../components/contact";
+import EventsComponent from "../components/events";
+import IndexHeader from "../components/indexHeader";
+import Layout from '../components/layout';
+import NewsComponent from "../components/news";
+import SponsorsComponent from "../components/sponsors";
+import TeamsComponent from "../components/teams";
+import "../styles/global.css";
+import FilmMp4 from "../videos/tt-film.mp4";
+import FilmWebm from "../videos/tt-film.webm";
 
 const IndexPage = ({ data }) => {
   const imageData = data.desktop.childImageSharp.fluid;
